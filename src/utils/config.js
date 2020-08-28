@@ -1,0 +1,3 @@
+const { CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, VIDEO_ID } = process.env;
+
+module.exports = { CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, VIDEO_ID };
