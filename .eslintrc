@@ -1,0 +1,12 @@
+{
+	"env": {
+		"es6": true,
+		"node": true
+	},
+	"extends": ["standard", "prettier"],
+	"plugins": ["prettier"],
+	"rules": {
+		"no-console": ["off"],
+		"prettier/prettier": ["warn"]
+	}
+}
