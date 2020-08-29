@@ -115,3 +115,7 @@ process.on('unhandledRejection', (err) => {
 	console.error(err)
 	process.exit()
 })
+
+process.on('SIGTERM', () => {
+	console.log('SIGTERM RECEIVED, shutting down the app')
+})
